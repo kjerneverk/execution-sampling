@@ -169,10 +169,11 @@ export class SamplingProvider implements Provider {
             : undefined;
         
         // Build sampling request
+        // maxTokens is required by the MCP sampling spec
         const samplingRequest: SamplingCreateMessageRequest = {
             messages,
             systemPrompt,
-            maxTokens: options?.maxTokens,
+            maxTokens: options?.maxTokens ?? 8192,
             temperature: options?.temperature,
             modelPreferences: this.config.defaultModelPreferences,
             includeContext: 'thisServer',
