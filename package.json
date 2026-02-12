@@ -54,6 +54,6 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "@kjerneverk/execution": "^1.0.5"
+    "@kjerneverk/execution": "^1.0.6"
   }
 }
