@@ -1,6 +1,6 @@
 {
   "name": "@kjerneverk/execution-sampling",
-  "version": "1.0.4",
+  "version": "1.0.5-dev.0",
   "description": "MCP sampling provider for AI generation - no API keys needed",
   "type": "module",
   "main": "./dist/index.js",
