@@ -55,5 +55,8 @@
   },
   "peerDependencies": {
     "@kjerneverk/execution": "^1.0.7"
+  },
+  "publishConfig": {
+    "tag": "dev"
   }
 }
