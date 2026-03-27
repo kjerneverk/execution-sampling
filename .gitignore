@@ -9,3 +9,4 @@ coverage/
 
 output/
 .kodrdriv*
+package-lock.json
