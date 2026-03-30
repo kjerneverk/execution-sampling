@@ -8,4 +8,7 @@ coverage/
 **/.DS_Store
 
 output/
+.kodrdriv*
+.kodrdriv/*
+!.kodrdriv/config.yaml
 package-lock.json
