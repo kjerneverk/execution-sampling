@@ -54,7 +54,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "@kjerneverk/execution": "^1.0.8"
+    "@kjerneverk/execution": "^1.0.14"
   },
   "publishConfig": {
     "tag": "dev"
