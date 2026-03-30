@@ -9,4 +9,6 @@ coverage/
 
 output/
 .kodrdriv*
+.kodrdriv/*
+!.kodrdriv/config.yaml
 package-lock.json
